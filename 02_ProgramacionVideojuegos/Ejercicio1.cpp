@@ -6,6 +6,7 @@ void ChangePointers(int* a, int* b) {
 	*b = temp;
 }
 void Ejercicio1() {
+	printf("--------Ejercicio 1--------\n");
 	int a = 3;
 	int b = 7;
 	ChangePointers(&a, &b);
