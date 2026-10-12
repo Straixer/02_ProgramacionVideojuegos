@@ -140,9 +140,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Ejercicio1.h" />
+    <ClInclude Include="Ejercicio2.h" />
+    <ClInclude Include="Ejercicio3.h" />
+    <ClInclude Include="Ejercicio4.h" />
+    <ClInclude Include="Ejercicio5.h" />
+    <ClInclude Include="Ejercicio6.h" />
+    <ClInclude Include="Ejercicio7.h" />
+    <ClInclude Include="Ejercicio8.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ejercicio1.cpp" />
+    <ClCompile Include="Ejercicio2.cpp" />
+    <ClCompile Include="Ejercicio3.cpp" />
+    <ClCompile Include="Ejercicio4.cpp" />
+    <ClCompile Include="Ejercicio5.cpp" />
+    <ClCompile Include="Ejercicio6.cpp" />
+    <ClCompile Include="Ejercicio7.cpp" />
+    <ClCompile Include="Ejercicio8.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

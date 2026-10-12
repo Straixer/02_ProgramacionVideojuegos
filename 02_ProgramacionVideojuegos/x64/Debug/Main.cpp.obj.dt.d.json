@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\main.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\ejercicio1.h",
+            "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\ejercicio2.h",
+            "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\ejercicio4.h",
+            "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\ejercicio5.h",
+            "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\ejercicio7.h",
+            "d:\\universidad\\programacionvideojuegos\\02_programacionvideojuegos\\02_programacionvideojuegos\\ejercicio8.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

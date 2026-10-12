@@ -13,6 +13,6 @@ No funciona porque en ```int* ptr = new int(&var)``` le pasas como argumento un 
 ### F
 EL código funciona, crea una variable de int, un puntero de int reservando memoria con new, pero después cambia la dirección del puntero a la dirección de la variable de int y le cambia el valor del int mediante el puntero. Pero hay un leak de memoria porque no se borra la memoria reservada por el puntero inicialmente antes de cambiar su dirección, por lo que habría un bloque de memoria reservado al que se ha perdido el acceso.
 ## Ejercicio 2
-Es preferible usar el ´´´const &´´´ porque evitas cambiar los datos originales de la estructura
+Es preferible usar el ```const &``` porque evitas cambiar los datos originales de la estructura
 ## Ejercicio 3
 ```int* const p``` No permite modificar la dirección de memoria a donde apunta. En cambio ```const int* p``` si q ue permite cambiar la dirección de memoria, pero no el contenido de donde está apuntado.
